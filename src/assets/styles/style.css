@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #575757;
+    font-family: RedHadDisplay;
+}
+
+.modal.show {
+    display: block;
+    padding-right: 12px;
+    background:#2b2b2bd1;
+    transition: all .3s;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.c-tn {
+    color: #4ae9f7 !important;
+}
+
+.btn.b-none:hover {
+    color: #4ae9f7 !important;
+}
+
+.btn.b-none {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-icon {
+    width: 2.375rem;
+    height: 2.375rem;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    background: #424242;
+}
+
+.page-header {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-image: url('assets/images/bg-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header .banner {
+    display: flex;
+    align-self: center;
+    padding: 6rem 0 !important;
+}
+
+.banner .title {
+    font-size: 48px;
+    line-height: 1.28571429em;
+}
+
+.form-search {
+    max-width: 650px;
+    padding: 0 15px;
+    margin: 30px auto 0;
+    position: relative;
+    display: flex;
+}
+
+.form-search .btn-submit {
+    /* position: absolute; */
+    /* right: 18px; */
+    border: none;
+    width: 44px;
+    display: block;
+    /* top: 3px; */
+    opacity: .85;
+    background: #FFFFFF;
+    color: #666666;
+    transition: all .2s;
+}
+
+.form-control-search {
+    background-color: rgba(255,255,255,0.1);
+}
